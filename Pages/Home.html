@@ -1,0 +1,580 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	<title>Home</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico" />
+
+	<link rel="icon" href="images/janu.icon.png" type="image/gif" sizes="16x16">
+	<link rel="stylesheet" href="Home.css" />
+	<link href="Login.css" rel="stylesheet" />
+	<link href="about.css" rel="stylesheet" />
+
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="animate.css-master/animate.min.css" />
+</head>
+
+
+	<!--------------------------------------header------------------------------------------>
+
+<body>
+
+	<section class="header">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<a class="navbar-brand" href="#">
+					<div class="text-box">
+						<span>S</span>
+						<span>U</span>
+						<span>P</span>
+						<span>E</span>
+						<span>R</span>
+						<span>M</span>
+						<span>A</span>
+						<span>R</span>
+						<span>K</span>
+						<span>E</span>
+						<span>T</span>
+					</div>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+						aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<i class="fa fa-bars"></i>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ml-auto text-right">
+						
+						<li class="nav-item">
+							<a class="nav-link active-home" href="Home.html">Home</a>
+						</li>
+				
+
+						<li class="nav-item">
+							<a class="nav-link" href="#">Customers</a>
+						</li>
+
+						
+						<li class="nav-item">
+							<a class="nav-link" href="../EmpLogin/login.php">Employees</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="../About Page/index.html">About</a>
+
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="../Contact Page/index.html">Contact</a>
+						</li>
+
+										
+						<li class="nav-item">
+							
+							<a class="nav-link" href="../Pages/login.php">Login</a>
+
+						</li>
+						
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</section>
+
+
+
+	<!---------------------------------------slider--------------------------------------------->
+
+
+	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active animated rotateInUpRight">
+				<img src="images/slider-1.jpg" class="d-block w-100" style="height: 600px;">
+				<div class="carousel-caption animated rotateInUpRight delay-1s">
+					<h1>THIS IS DIGITALIZING</h1>
+				</div>
+			</div>
+
+			<div class="carousel-item animated fadeInUpt">
+				<img src="images/slider-4.jpg" class="d-block w-100" style="height: 600px;">
+				<div class="carousel-caption animated fadeInUp delay-1s">
+					<h1>SALES SUPER MARKET</h1>
+				</div>
+			</div>
+
+			<div class="carousel-item animated jackInTheBox">
+				<img src="images/slider-3.jpg" class="d-block w-100" style="height: 600px;">
+				<div class="carousel-caption animated jackInTheBox delay-1s">
+					<h1>MANAGEMENT SYSTEM</h1>
+				</div>
+			</div>
+
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+
+
+	<!-------------------------------wave-------------------------------------------------->
+
+	<div class="ocean">
+		<div class="wave"></div>
+		<div class="wave"></div>
+	</div>
+
+
+	<br />
+	<br />
+	<br />
+
+
+	<!-----------------------------------spacel offers------------------------------------------->
+
+
+	<div class="container">
+
+
+		<h1 class="special-h1 animated flash">Special Offers</h1>
+		<div id="pointer" class="animated flash"></div>
+
+		<div class="btn-box">
+
+
+			<button id="btn1" onclick="openHTML()"><img src="images/sunflower-oil.png" class="log-icons animated bounceIn delay-1s">Staples</button>
+			<button id="btn2" onclick="openCSS()"><img src="images/food-and-restaurant.png" class="log-icons animated bounceIn delay-1s">Snacks</button>
+			<button id="btn3" onclick="openJS()"><img src="images/food.png" class="log-icons animated bounceIn delay-1s">Fruits & Vegetables</button>
+			<button id="btn3" onclick="openJS()"><img src="images/lunch.png" class="log-icons animated bounceIn delay-1s">Breakfast Cereal</button>
+
+		</div>
+
+
+		<div class="row special animated bounce delay-1s">
+
+			<div class="col-md-3">
+				<div class="product-top">
+					<img src="images/ricepacket.jpg" style="width:100%;height:250px; padding:25px;" />
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-heart-o"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-shopping-cart"></i>
+						</button>
+					</div>
+				</div>
+
+				<div class="product-bottom text-center">
+
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half-o"></i>
+					<i class="fa fa-star-o"></i>
+					<h3>Rice Packet</h3>
+					<h5>$80.00</h5>
+
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="product-top">
+					<img src="images/oilimg.jpg" style="width:100%;height:250px; padding:25px;" />
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-heart-o"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-shopping-cart"></i>
+						</button>
+					</div>
+				</div>
+
+				<div class="product-bottom text-center">
+
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half-o"></i>
+					<i class="fa fa-star-o"></i>
+					<h3>Sunflower Oil</h3>
+					<h5>$100</h5>
+
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="product-top">
+					<img src="images/dhaimg.jpg" style="width:100%;height:250px; padding:25px;" />
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-heart-o"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-shopping-cart"></i>
+						</button>
+					</div>
+				</div>
+
+				<div class="product-bottom text-center">
+
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half-o"></i>
+					<i class="fa fa-star-o"></i>
+					<h3>Dhal</h3>
+					<h5>$50.00</h5>
+
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="product-top">
+					<img src="images/meera.png" style="width:100%;height:250px; padding:25px;" />
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-heart-o"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-shopping-cart"></i>
+						</button>
+					</div>
+				</div>
+
+				<div class="product-bottom text-center">
+
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half-o"></i>
+					<i class="fa fa-star-o"></i>
+					<h3>Meera Shampoo</h3>
+					<h5>$20</h5>
+
+				</div>
+			</div>
+
+
+		</div>
+
+		<div class="row special animated bounce delay-1s">
+
+			<div class="col-md-3">
+				<div class="product-top">
+					<img src="images/chipa.jpg" style="width:100%;height:250px; padding:25px;" />
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-heart-o"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-shopping-cart"></i>
+						</button>
+					</div>
+				</div>
+
+				<div class="product-bottom text-center">
+
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half-o"></i>
+					<i class="fa fa-star-o"></i>
+					<h3>Chocolate</h3>
+					<h5>$120.00</h5>
+
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="product-top">
+					<img src="images/candy.jpg" style="width:100%;height:250px; padding:25px;" />
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-heart-o"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-shopping-cart"></i>
+						</button>
+					</div>
+				</div>
+
+				<div class="product-bottom text-center">
+
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half-o"></i>
+					<i class="fa fa-star-o"></i>
+					<h3>Candy Club</h3>
+					<h5>$80.00</h5>
+
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="product-top">
+					<img src="images/snaks1.jpg" style="width:100%;height:250px; padding:25px;" />
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-heart-o"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-shopping-cart"></i>
+						</button>
+					</div>
+				</div>
+
+				<div class="product-bottom text-center">
+
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half-o"></i>
+					<i class="fa fa-star-o"></i>
+					<h3>Snacks</h3>
+					<h5>$20.00</h5>
+
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="product-top">
+					<img src="images/snaks.jpg" style="width:100%;height:250px; padding:25px;" />
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-heart-o"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-shopping-cart"></i>
+						</button>
+					</div>
+				</div>
+
+				<div class="product-bottom text-center">
+
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half-o"></i>
+					<i class="fa fa-star-o"></i>
+					<h3>Chips</h3>
+					<h5>$10.00</h5>
+
+				</div>
+			</div>
+
+
+		</div>
+
+	</div>
+
+	<br />
+	<br />
+
+	<!----------------------------------------testy snaks bg----------------------------------->
+
+	<div class="bg">
+
+		<h1 class="testy animated zoomIn">TASTY SPICY SNACKS<br />FOR EVERYONE</h1>
+
+		<a href="#" class="button">EXPLORE MORE</a>
+
+
+	</div>
+
+	<!------------------------website features---------------------------------------------->
+
+	<section class="website-features animated rollIn">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 feature-box">
+					<img src="images/stamp.jpg">
+					<div class="feature-text">
+						<p>
+							100% Original item<br />
+							are available
+
+					</div>
+				</div>
+
+				<div class="col-md-3 feature-box">
+					<img src="images/return.jpg" />
+					<div class="feature-text">
+						<p>Return within 7 days of recieving your order.</p>
+
+					</div>
+				</div>
+
+				<div class="col-md-3 feature-box">
+					<img src="images/delivery.png" />
+					<div class="feature-text">
+						<p>Get free delivery<br />order on more than price</p>
+
+					</div>
+				</div>
+
+				<div class="col-md-3 feature-box">
+					<img src="images/payment.png" />
+					<div class="feature-text">
+						<p>Pay online payment option</p>
+
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+	</section>
+
+
+	<!----------------------------------foother--------------------------------->
+
+	<div class="section">
+		<div class="snow1"></div>
+		<div class="snow2"></div>
+
+	</div>
+
+
+
+	<section class="footer animated bounceInUp">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-md-3">
+
+					<h1>Useful Links</h1>
+					<p>Privacy Police</p>
+					<p>Terms of Use</p>
+					<p>Return Policy</p>
+					<p>Discount Coipons</p>
+
+				</div>
+
+
+				<div class="col-md-3">
+
+					<h1>Company</h1>
+					<p>About US</p>
+					<p>Contact Us</p>
+					<p>Career</p>
+					<p>Affriliate</p>
+
+				</div>
+
+
+
+				<div class="col-md-3">
+
+					<h1>Follow</h1>
+					<p><i class="fa fa-facebook-official"></i>Facebook</p>
+					<p><i class="fa fa-youtube-play"></i>YouTube</p>
+					<p><i class="fa fa-linkedin"></i>Linkedin</p>
+					<p><i class="fa fa-twitter"></i>Twitter</p>
+
+				</div>
+
+				<div class="col-md-3 footer-image">
+
+					<h1>Download App</h1>
+					<img src="images/g store.png" />
+					<br /><br />
+					<img src="images/iphone store11.png" style="width:130px;" />
+
+
+				</div>
+
+			</div>
+
+			<hr />
+
+			<p class="copyright animated flipInX">
+				Made With <i class="fa fa-heart-o"></i><span>J</span>
+				<span><i class="fa fa-heart-o"></i></span>
+				<span>A<i class="fa fa-heart-o"></i></span>
+				<span><i class="fa fa-heart-o"></i></span>
+				<span>N</span>
+				<span><i class="fa fa-heart-o"></i></span>
+				<span>U</span>
+			</p>
+
+		</div>
+	</section>
+
+	<!----------------------------------------courser----------------------------------->
+
+
+	<div class="smallCursor">
+
+	</div>
+	<div class="largeCursor">
+
+	</div>
+
+
+
+	<script>
+
+		var smallCursor = document.querySelector(".smallCursor");
+		var largeCursor = document.querySelector(".largeCursor");
+		document.onmousemove = function (e) {
+
+			smallCursor.style.left = (e.pageX - 5) + "px";
+			smallCursor.style.top = (e.pageY - 5) + "px";
+
+			smallCursor.style.display = "block";
+
+
+
+			largeCursor.style.left = (e.pageX - 22) + "px";
+			largeCursor.style.top = (e.pageY - 22) + "px";
+
+			largeCursor.style.display = "block";
+
+
+		}
+
+
+
+
+	</script>
+
+</body>
+</html>
